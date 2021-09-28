@@ -1,9 +1,21 @@
 package allcalc;
-import allcalc.ops.adder;
 
 import java.sql.Time;
 import java.util.Scanner;
 
+public class adder extends Thread{
+    Integer a,b;
+    public adder(int x, int y){
+        a = x;
+        b = y;
+    }
+    public void calc(){
+        System.out.print(a + b);
+    }
+    public void run(){
+        calc();
+    }
+}
 
 class divisionException extends Exception {
     float f;
