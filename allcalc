@@ -1,0 +1,143 @@
+package allcalc;
+import allcalc.ops.adder;
+
+import java.sql.Time;
+import java.util.Scanner;
+
+
+class divisionException extends Exception {
+    float f;
+    public divisionException(float x) {
+        super(Float.toString(x));
+        f = x;
+        System.out.println(x);
+    }
+    public float getDiv(){
+        return f;
+    }
+}
+
+
+abstract class sub{
+    int a,b;
+    sub(int x, int y){
+        a=x;
+        b=y;
+    }
+    abstract int calc();
+}
+
+
+interface mul{
+    abstract int calc();
+}
+
+
+class subt extends sub{
+
+    subt(int x, int y){
+        super(x,y);
+    }
+    int calc(){
+        return a-b;
+    }
+}
+
+
+class mult implements mul{
+    int a, b;
+    mult(int x, int y){
+        a=x;
+        b=y;
+    }
+    public int calc(){
+        return a*b;
+    }
+}
+
+
+class div{
+    int a,b;
+    div(int x, int y){
+        a = x;
+        b = y;
+    }
+    public void calc() throws divisionException{
+        float m = a/b;
+        if(b != 0){
+            throw new divisionException(m);
+        }
+
+
+    }
+}
+
+
+public class all {
+    enum sign {
+        PLUS(1) {
+            char sym() {return '+';}
+        },
+        MINUS(2) {
+            char sym() {return '-';}
+        },
+        TIMES(3) {
+            char sym() {return '*';}
+        },
+        DIVIDE(4) {
+            char sym() {return '/';}
+        };
+        int symbol;
+        sign(int symbol) {
+            this.symbol = symbol;
+        }
+        abstract char sym();
+    }
+
+
+    public static void main(String[] args) throws InterruptedException{
+
+        System.out.println();
+        Scanner in = new Scanner(System.in);
+
+        while (true){
+            Thread.sleep(5);
+            System.out.println("\nEnter the values: ");
+            int x = in.nextInt();
+            int y = in.nextInt();
+
+            System.out.println("\nEnter the operation you would like to perform\n1. Addition\n2. Subtraction" +
+                    "\n3. Multiplication\n4. Division\n5. Exit");
+            int i = in.nextInt();
+
+            if (i == 1) {
+
+                adder a = new adder(x, y);
+                System.out.print(x + " " + sign.valueOf("PLUS").sym() + " " + y + " = " );
+                a.start();
+
+            } else if (i == 2) {
+
+                subt b = new subt(x, y);
+                System.out.print(x + " " + sign.valueOf("MINUS").sym() + " " + y + " = " + b.calc());
+
+            } else if (i == 3) {
+
+                mult c = new mult(x, y);
+                System.out.print(x + " " + sign.valueOf("TIMES").sym() + " " + y + " = " + c.calc());
+
+            } else if (i == 4) {
+                try{
+                    div d = new div(x, y);
+                    System.out.print(x + " " + sign.valueOf("DIVIDE").sym() + " " + y + " = ");
+                    d.calc();
+                }catch (divisionException e){
+                    System.out.print(e.getDiv());
+                }
+            } else {
+                break;
+            }
+
+        }
+    }
+}
