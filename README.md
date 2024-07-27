@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @rohanprichard
-- 👀 I’m interested in Software Development and Artificial Intelligence
-- 🌱 I’m currently learning Java and Python
+- 👀 I’m interested in Artificial Intelligence and Deep Learning
+- 🌱 I’m currently working as an AI engineer at Amalgamrx!
 - 📫 How to reach me: rohanprichard@gmail.com
 
 <!---
