@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @rohanprichard
 - 👀 I’m interested in Artificial Intelligence and Deep Learning
-- 🌱 I’m currently working as an AI engineer at Amalgamrx!
+- 🌱 I’m currently working as an AI engineer at AmalgamRx!
 - 📫 How to reach me: rohanprichard@gmail.com
 
 <!---
