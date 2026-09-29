@@ -1,17 +1,24 @@
 ### hey, I'm Rohan 👋
 
-AI/Full-Stack Engineer at AmalgamRx. I work on agentic systems and clinical ML as well as voice — plus the infra to keep it all up and running.
+**AI / Full-Stack Engineer at AmalgamRx** building agentic systems, voice AI, clinical ML, and the infrastructure underneath them.
 
-- 🎙️ real-time voice AI — STT/TTS pipelines and WebRTC widgets on [FastRTC](https://github.com/rohanprichard/fastrtc-demo)
-- 🤖 spent a good chunk of 2026 building agentic teammates you wouldn't know aren't real people 
-- 🧠 LLM agents, knowledge graphs, and the retrieval/eval pipelines underneath them
-- 🛡️ [fastmcp-guard](https://github.com/rohanprichard/fastmcp-guard) — the ops layer FastMCP doesn't ship with: API key issuance/rotation/revocation, per-key and per-tool rate limiting, and audit logging, published on PyPI
-- 🎹 mildly obsessed with music — apparently that means building a 29-note MIDI pedalboard for a virtual pipe organ instead of just, you know, playing normally
+[![ORCID](https://img.shields.io/badge/ORCID-0009--0008--5237--7797-A6CE39?logo=orcid&logoColor=white)](https://orcid.org/0009-0008-5237-7797)
+![Publications](https://img.shields.io/badge/Publications-5-4C8BF5)
+![Focus](https://img.shields.io/badge/Focus-LLM%20Agents%20%2B%20Voice%20AI-8A2BE2)
 
-also send the odd PR upstream when something's broken — [fastrtc](https://github.com/gradio-app/fastrtc), [headroom](https://github.com/headroomlabs-ai/headroom), and whatever else crosses my path
+I mostly build AI systems that have to work outside a demo.
 
-I also co-authored a few papers — [healthcare LLM guardrails](https://link.springer.com/chapter/10.1007/978-3-031-86623-4_15), [an educational chatbot](https://ieeexplore.ieee.org/document/10627567/) (first author), [deepfake detection](https://ieeexplore.ieee.org/document/10544898/), and most recently a sleep apnea screening model (accepted, publication pending) — and as a part of the team at AmalgamRx picked up a couple of AI Breakthrough Awards in [2024](https://amalgamrx.com/news/2024-ai-breakthrough-awards/) and [2026](https://www.streetinsider.com/Business+Wire/Amalgam+Rx+Wins+%E2%80%9COverall+Large+Language+Model+of+the+Year%E2%80%9D/26703676.html)
+- 🤖 **Agents** — LLM agents, agentic teammates, knowledge graphs, retrieval, memory, and evaluation systems
+- 🎙️ **Voice AI** — real-time STT/TTS pipelines, WebRTC, interruption/turn-taking, and [FastRTC](https://github.com/rohanprichard/fastrtc-demo)
+- 🧠 **Applied ML** — clinical ML, embeddings, retrieval systems, and LLM evaluation
+- 🛡️ **MCP infrastructure** — built [fastmcp-guard](https://github.com/rohanprichard/fastmcp-guard), an ops layer for FastMCP with API-key lifecycle management, per-key/per-tool rate limiting, and audit logging
+- 🔧 **Open source** — I send the occasional upstream fix to projects I use, including [FastRTC](https://github.com/gradio-app/fastrtc), [Headroom](https://github.com/headroomlabs-ai/headroom), and whatever else I manage to break
+- 🎹 **Music + hardware** — mildly obsessed with music, which apparently means building a 29-note MIDI pedalboard for a virtual pipe organ instead of just playing normally
 
-I mostly just broke things and occasionally shipped code.
+As part of the team at AmalgamRx, I also contributed to work recognized with AI Breakthrough Awards in [2024](https://amalgamrx.com/news/2024-ai-breakthrough-awards/) and [2026](https://www.streetinsider.com/Business+Wire/Amalgam+Rx+Wins+%E2%80%9COverall+Large+Language+Model+of+the+Year%E2%80%9D/26703676.html).
 
-📫 rohanrichard.work@gmail.com · [rohanrichard.com](https://rohanrichard.com)
+---
+
+I mostly just break things until something useful comes out.
+
+📫 [rohanrichard.work@gmail.com](mailto:rohanrichard.work@gmail.com) · [rohanrichard.com](https://rohanrichard.com) · [ORCID](https://orcid.org/0009-0008-5237-7797)
