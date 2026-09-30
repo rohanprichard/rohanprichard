@@ -3,8 +3,7 @@
 **AI / Full-Stack Engineer at AmalgamRx** building agentic systems, voice AI, clinical ML, and the infrastructure underneath them.
 
 [![ORCID](https://img.shields.io/badge/ORCID-0009--0008--5237--7797-A6CE39?logo=orcid&logoColor=white)](https://orcid.org/0009-0008-5237-7797)
-![Publications](https://img.shields.io/badge/Publications-5-4C8BF5)
-![Focus](https://img.shields.io/badge/Focus-LLM%20Agents%20%2B%20Voice%20AI-8A2BE2)
+
 
 I mostly build AI systems that have to work outside a demo.
 
