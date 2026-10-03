@@ -20,4 +20,4 @@ As part of the team at AmalgamRx, I also contributed to work recognized with AI 
 
 I mostly just break things until something useful comes out.
 
-📫 [rohanrichard.work@gmail.com](mailto:rohanrichard.work@gmail.com) · [rohanrichard.com](https://rohanrichard.com) · [ORCID](https://orcid.org/0009-0008-5237-7797)
+📫 [rohanrichard.work@gmail.com](mailto:rohanrichard.work@gmail.com) · [rohanprichard.com](https://rohanprichard.com) · [ORCID](https://orcid.org/0009-0008-5237-7797)
